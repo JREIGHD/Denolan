@@ -1,0 +1,131 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wood Museum - Your Name</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #3d2717;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            float: left;
+            width: 20%;
+            background-color: #331a00;
+            padding: 20px;
+            height: 100vh;
+            overflow: auto;
+        }
+
+        nav a {
+            display: block;
+            color: #fff;
+            padding: 10px;
+            text-decoration: none;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            background-color: #4d2600;
+        }
+
+        nav a:hover {
+            background-color: #663300;
+        }
+
+        section {
+            float: left;
+            width: 60%;
+            padding: 20px;
+        }
+
+        aside {
+            float: left;
+            width: 20%;
+            padding: 20px;
+            background-color: #331a00;
+            color: #fff;
+        }
+
+        footer {
+            clear: both;
+            text-align: center;
+            padding: 20px;
+            background-color: #3d2717;
+            color: #fff;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #3d2717;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .contact-details {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Reigh Denolan</h1>
+        <p>Welcome to my portfolio!</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#blog">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section>
+        <h2 id="about">About Me</h2>
+        <img src="your_profile_picture.jpg" alt="My name is Julianna reigh Denolan!">
+        <p>Hello there! I'm a passionate freelance artist juggling creativity and code as a student at Ateneo de Davao University, where I'm pursuing a degree in Information Technology. Balancing pixels and paintbrushes, I navigate the dynamic worlds of art and tech, driven by a love for both expression and innovation. Join me on this unique journey where pixels meet purpose!</p>
+
+        <h2 id="Projects">Projects</h2>
+        <div>
+            <h3>Freelance Commissions</h3>
+            <p>Your blog post content goes here. You can write about various topics, share your thoughts, and engage with your audience.</p>
+        </div>
+
+        <div>
+            <h3>Personal Projects</h3>
+            <p>Another blog post content goes here. Feel free to express your opinions, share experiences, and connect with your readers.</p>
+        </div>
+    </section>
+
+    <aside>
+        <img src="your_contact_picture.jpg" alt="Contact Picture">
+        <div class="Contact Me!">
+            <h2>Contact Details</h2>
+            <p>Email: jreighdenolan@gmail.com</p>
+            <p>Phone: +63 912 889 7304</p>
+        </div>
+    </aside>
+
+    <footer>
+        &copy; 2023 Reighdee. All rights reserved.
+    </footer>
+
+</body>
+</html>
